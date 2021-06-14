@@ -1,0 +1,11 @@
+Validate an IP Address
+Validate IPv4 address. The generalized form of an IPv4 address is (0-255).(0-255).(0-255).(0-255).
+Hint: Numbers should be from 0 to 255 and any additional leading zeroes will be considered invalid.
+
+Input (String):
+ip = 222.111.111.111
+Output: Valid
+
+Input:
+ip = 5555..555
+Output: Invalid

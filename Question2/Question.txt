@@ -1,0 +1,17 @@
+Question- 2 out of 365
+During night, the streets are lit up with street lights. Find the length of each street that receives street light.
+Given:
+-Specifications of the street.
+-There are total L street lights.
+- Each light I cover the street from Xi to Yi along the street. 
+Input:
+Number of light
+Array[][] L*2, (xi,yi) will show that light covers from xi to yi.
+Sample:
+Input:
+1
+5 10
+Output:
+5
+Explanation:
+Light 1: 10-5 = 5 unit covered.

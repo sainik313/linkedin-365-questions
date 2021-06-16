@@ -1,0 +1,15 @@
+    public static void removeLoop(Node head){
+        // remove the loop without losing any nodes
+        Node temp=head;
+        Node prev=head;
+        HashSet<Node> h = new HashSet<>();
+        while(temp!=null){
+            if(h.contains(temp)){
+                break;
+            }
+            prev = temp;
+            h.add(temp);
+            temp=temp.next;
+        }
+        prev.next = null;
+    }

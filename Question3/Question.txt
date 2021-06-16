@@ -1,0 +1,12 @@
+Detect and remove loop in Linked List
+You are given a linked list of N nodes. Remove the loop from the linked list, if present. You have to detect the loop if present.
+Hint: You have to create a loop before solving.
+
+Input:
+N = 3
+value[] = {1,3,4}
+
+Explanation: The link list looks like
+1 -> 3 -> 4
+    |____|   
+A loop is present, 4 is connected to 3.
